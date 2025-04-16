@@ -1,9 +1,8 @@
 
-
 {
-    "name": "Cruz Cristiana en la barra superior",
-    "description": "Muestra la santa cruz de Jesuús en la barra superior de Gnome.",
-    "uuid": "cristiano@inled.es",
+    "name": "Christian cross in GNOME bar",
+    "description": "Show the holy cross on which Jesus Christ died so that the presence of God is with you",
+    "uuid": "cruzcristiana@inled.es",
     "shell-version": [
       "3.36",
       "3.38",
