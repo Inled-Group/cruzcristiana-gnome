@@ -1,14 +1,14 @@
-
 {
-    "name": "Christian cross in GNOME bar",
-    "description": "Show the holy cross on which Jesus Christ died so that the presence of God is with you",
-    "uuid": "cruzcristiana@inled.es",
-    "shell-version": [
-      "3.36",
-      "3.38",
-      "40",
-      "41",
-      "42",
-      "43"
-    ]
-  }
+  "name": "Christian cross",
+  "description": "Show the holy cross on which Jesus Christ died so that the presence of God is with you",
+  "uuid": "cruzcristiana@inled.es",
+  "shell-version": [
+    "3.36",
+    "3.38",
+    "40",
+    "41",
+    "42",
+    "43"
+  ],
+  "url": "https://github.com/Inled-Group/cruzcristiana-gnome"
+}
