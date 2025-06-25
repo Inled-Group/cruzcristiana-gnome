@@ -1,12 +1,10 @@
-// extension.js - Versión compatible con GNOME 45+
-import St from 'gi://St';
-import Clutter from 'gi://Clutter';
-import * as Main from 'resource:///org/gnome/shell/ui/main.js';
-import {Extension} from 'resource:///org/gnome/shell/extensions/extension.js';
+// extension.js
+const { St, Clutter } = imports.gi;
+const Main = imports.ui.main;
+const ExtensionUtils = imports.misc.extensionUtils;
 
-export default class ChristianCrossExtension extends Extension {
-    constructor(metadata) {
-        super(metadata);
+class ChristianCrossExtension {
+    constructor() {
         this._indicator = null;
     }
 
@@ -38,4 +36,9 @@ export default class ChristianCrossExtension extends Extension {
             this._indicator = null;
         }
     }
+}
+
+// Funciones estándar para inicializar la extensión
+function init() {
+    return new ChristianCrossExtension();
 }
